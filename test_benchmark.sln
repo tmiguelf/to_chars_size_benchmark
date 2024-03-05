@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_benchmark", "test_benchmark\test_benchmark.vcxproj", "{70884D44-D578-4164-8CDA-9BDBAF812515}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmark", "submodules\benchmark\benchmark\benchmark.vcxproj", "{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoreLib", "submodules\utilities\CoreLib\CoreLib.vcxproj", "{EA04E8E6-B05B-416E-B0A3-218406672173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		WSL_Debug|x64 = WSL_Debug|x64
+		WSL_Release|x64 = WSL_Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.Debug|x64.ActiveCfg = Debug|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.Debug|x64.Build.0 = Debug|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.Release|x64.ActiveCfg = Release|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.Release|x64.Build.0 = Release|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.WSL_Debug|x64.ActiveCfg = WSL_Debug|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.WSL_Debug|x64.Build.0 = WSL_Debug|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.WSL_Release|x64.ActiveCfg = WSL_Release|x64
+		{70884D44-D578-4164-8CDA-9BDBAF812515}.WSL_Release|x64.Build.0 = WSL_Release|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.Debug|x64.ActiveCfg = Debug|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.Debug|x64.Build.0 = Debug|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.Release|x64.ActiveCfg = Release|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.Release|x64.Build.0 = Release|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Debug|x64.ActiveCfg = WSL_Debug|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Debug|x64.Build.0 = WSL_Debug|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Debug|x64.Deploy.0 = WSL_Debug|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Release|x64.ActiveCfg = WSL_Release|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Release|x64.Build.0 = WSL_Release|x64
+		{2B8A8DAF-B3E6-401B-89F7-3F7C3FD4B76F}.WSL_Release|x64.Deploy.0 = WSL_Release|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.Debug|x64.ActiveCfg = Debug|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.Debug|x64.Build.0 = Debug|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.Release|x64.ActiveCfg = Release|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.Release|x64.Build.0 = Release|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Debug|x64.ActiveCfg = WSL_Debug|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Debug|x64.Build.0 = WSL_Debug|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Debug|x64.Deploy.0 = WSL_Debug|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Release|x64.ActiveCfg = WSL_Release|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Release|x64.Build.0 = WSL_Release|x64
+		{EA04E8E6-B05B-416E-B0A3-218406672173}.WSL_Release|x64.Deploy.0 = WSL_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27D521B4-3813-4666-91BF-15F34FA898C2}
+	EndGlobalSection
+EndGlobal
